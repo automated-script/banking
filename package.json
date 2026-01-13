@@ -1,0 +1,17 @@
+{
+  "name": "mock-banking-api-v3-etag-admin-405",
+  "version": "3.0.0",
+  "description": "Advanced Mock Banking API with ETag 304, delete 204, admin role 403, method 405, swagger, postman collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
