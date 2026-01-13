@@ -228,7 +228,10 @@ const swaggerOptions = {
       version: '3.0.0',
       description: 'Advanced mock Banking API without DB: password login + OTP, account lock, refresh token, async transfers, validations + 204/304/403/405 support.'
     },
-    servers: [{ url: 'http://localhost:3000', description: 'Local' }],
+    servers: [
+  { url: 'http://localhost:3001', description: 'Local' },
+  { url: 'https://automatedscript-banking-api.onrender.com', description: 'Production (Automated Script)' }
+],
     components: {
       securitySchemes: {
         ApiKeyAuth: { type: 'apiKey', in: 'header', name: 'x-api-key' },
